@@ -1,6 +1,6 @@
 # text_to_GDB
 
-## Dependencies outside de environment
+## Dependencies outside the environment
 - charmbracalet/gum
 
 ## Architecture Idea
