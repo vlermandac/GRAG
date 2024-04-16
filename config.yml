@@ -1,0 +1,22 @@
+env-variables:
+  - project_root: ./
+  - openai_api_key: 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
+  - elastic_url: https://localhost:9200
+  - elastic_password: rkiPVSuZN4e6DF862mwh
+  - ca_cert: ./http_ca.crt
+
+data: 
+  unprocessed-files: ./data/
+  processed-files: ./data/processed_files
+
+preprocess:
+  chunk-size: 1000
+  overlap: 100
+
+embedding:
+  dimension: 200
+  openai-model: text-embedding-3-small
+
+
+test_control_variable:
+  do_not_delete: 
