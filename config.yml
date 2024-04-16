@@ -1,8 +1,8 @@
 env-variables:
   - project_root: ./
-  - openai_api_key: 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
-  - elastic_url: https://localhost:9200
-  - elastic_password: rkiPVSuZN4e6DF862mwh
+  - openai_api_key: 
+  - elastic_url: 
+  - elastic_password: 
   - ca_cert: ./http_ca.crt
 
 data: 
